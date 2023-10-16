@@ -15,17 +15,18 @@ import com.example.myfirtsdioapp.ui.theme.MyFirtsDioAppTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent {
-            MyFirtsDioAppTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    Greeting("Android")
-                }
-            }
-        }
+        setContentView(R.layout.layout_active)
+//        setContent {
+//            MyFirtsDioAppTheme {
+//                // A surface container using the 'background' color from the theme
+//                Surface(
+//                    modifier = Modifier.fillMaxSize(),
+//                    color = MaterialTheme.colorScheme.background
+//                ) {
+//                    Greeting("Android")
+//                }
+//            }
+//        }
 //        O desafio será criar uma um valor dentro do Script.xml, para criar uma internacionalização
 //        E trocar o texto do valor do xml e tornar internacional (USA, Espanhol, ... )
     }
